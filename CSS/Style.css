@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(120, 231, 76);
+}
+
+p {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(230, 38, 230);
+}
+
+/* Grouped selector */
+
+
+/* ID selector */
+#test-1 {
+    color: rgb(10, 208, 243);
+}
+
+/* Psuedo class selectors */
+button:hover {
+    color: #6FFFE9;
+}
+
+/* Pseudo element selectos */
+
+header + p::first-letter {
+    color: red;
+    font-style: bold;
+}
